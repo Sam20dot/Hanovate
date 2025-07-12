@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(120deg, #f0f0f0, #e0e0e0); /* Soft gradient background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Form Container */
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px; /* Increased padding for a more spacious feel */
+  border: 1px solid #ddd;
+  border-radius: 12px; /* Slightly larger border-radius */
+  background-color: #ffffff; /* Pure white background for contrast */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Deeper shadow for elevation */
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth scaling and shadow effect */
+}
+
+.form-container:hover {
+  transform: scale(1.02); /* Slight zoom on hover */
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.8em; /* Increased font size */
+  letter-spacing: 1px; /* Spacing for elegance */
+}
+
+/* Input Fields */
+.form-container input {
+  width: 100%;
+  padding: 14px; /* Increased padding for comfort */
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px; /* Updated border-radius */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Added shadow transition */
+}
+
+.form-container input:focus {
+  border-color: #4CAF50; /* Highlight border on focus */
+  outline: none; /* Remove outline */
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.5); /* Soft glow effect */
+}
+
+/* Button Styles */
+.form-container button {
+  width: 100%;
+  padding: 14px; /* Increased padding */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px; /* Updated border-radius */
+  cursor: pointer;
+  font-weight: bold; /* Bold text for buttons */
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Added transform transition */
+}
+
+.form-container button:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3); /* Shadow on hover */
+}
+
+/* Separator Styles */
+.separator {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.separator hr {
+  flex: 1;
+  border: 1px solid #ddd;
+}
+
+.separator span {
+  margin: 0 10px;
+  color: #666;
+  font-weight: bold; /* Bold separator text */
+}
+
+/* Google Button */
+.google-btn {
+  background-color: #DB4437; /* Google red */
+  margin-top: 10px;
+  font-weight: bold; /* Bold text */
+  border-radius: 6px; /* Consistent border-radius */
+  transition: background-color 0.3s, transform 0.3s; /* Added transition */
+}
+
+.google-btn:hover {
+  background-color: #c13526; /* Darker red on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+  box-shadow: 0 4px 12px rgba(219, 68, 55, 0.3); /* Shadow on hover */
+}
+
+/* Sign-Up Link */
+.signup-link {
+  margin-top: 15px;
+  color: #666;
+}
+
+.signup-link a {
+  color: #4CAF50; /* Green link color */
+  text-decoration: none;
+  font-weight: bold; /* Bold for emphasis */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.signup-link a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #388E3C; /* Darker green on hover */
+}

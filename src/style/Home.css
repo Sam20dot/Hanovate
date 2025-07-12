@@ -1,0 +1,143 @@
+.home {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.hero {
+  background-size: cover;
+  text-align: center;
+  padding: 100px 20px;
+  color: white;
+  position: relative;
+  height: 400px; /* Adjust height as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds depth to text */
+}
+
+.hero-title {
+  font-size: 3em;
+  animation: fadeIn 2s ease;
+}
+
+.hero-subtitle {
+  font-size: 1.5em;
+  animation: fadeIn 2s ease;
+}
+
+.cta-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.features {
+  padding: 50px 20px;
+  background-color: #f2f2f2;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 3em; /* Adjust icon size */
+}
+
+.testimonials {
+  padding: 40px 20px;
+  background-color: #e9f5e9;
+  text-align: center;
+}
+
+.testimonial-card {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 80%;
+}
+
+.newsletter {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.newsletter button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: white;
+}
+.cta-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Space between buttons */
+}
+
+.cta-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
